@@ -1,0 +1,1 @@
+I'm going through a tough time in my relationship. So, I looked for information online and came across a cross - talk about relationships. I think I might transcribe it and record it as a document. I hope to gain some good insights from this cross - talk through careful study.
