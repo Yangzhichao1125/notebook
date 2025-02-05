@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Relationship/1、course outline.md",
+                "file": "MyDiary/2025-02-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1、course outline"
+              "title": "2025-02-05"
             }
           }
         ]
@@ -181,10 +181,12 @@
   },
   "active": "c6ba296f0bec9c7a",
   "lastOpenFiles": [
+    "MyDiary/2025-02-04.md",
+    "MyDiary/2025-02-05.md",
+    "Relationship/1、course outline.md",
     "Relationship/3、outfit.md",
     "Relationship/Readme.md",
     "Relationship/2、appearance.md",
-    "Relationship/1、course outline.md",
     "MyDiary"
   ]
 }
