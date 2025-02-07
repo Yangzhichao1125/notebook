@@ -8,7 +8,7 @@
 *  good-looking
 *  elegant
 *  love learning
-*  very caring.
+*  very caring
 *  positive thinking
 *  brave
 *  stay along
