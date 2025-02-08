@@ -20,6 +20,6 @@
 * extravert
 * drink tea
 * be patient
-* summarize
+* **summarize**
 * express
 * No smoking, drinking or gambling.

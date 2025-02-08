@@ -9,4 +9,4 @@
 + Cycling to faraway places
 + Developed a number of websites
 + read more than 100 books
-+ Keeping a diary for over a decade
++ **Keeping a diary for over a decade**
