@@ -1,0 +1,9 @@
+In this project, we encountered several issues. For instance, in a multithreaded environment, we had to deal with some problems related to setting parameters in the `ThreadLocal` variable. As a result, in the sub - threads, we couldn't access the `ThreadLocal` information. Consider a scenario where we needed to gather some data, let's say summarize all the data from a collection. This process took a significant amount of time to calculate, so we decided to use multithreading to solve this problem. However, we then faced the issue that sub - threads couldn't access the parameters set in the parent `ThreadLocal`.
+
+We had several approaches to choose from:
+
+The first and simplest method was to set the parameters directly in the sub - thread's `ThreadLocal`. But if there were a large number of parameters, this could cause problems. There was also a risk that developers might forget to set some parameters, making this approach insecure. Hence, we didn't use this method.
+
+The second method was to use `InheritableThreadLocal`. This could ensure that the sub - thread's `ThreadLocal` could inherit the parameters from the parent `ThreadLocal`. However, there was a drawback. When an `InheritableThreadLocal` is created, the parameters are set only once. If the parent `ThreadLocal` parameters change, the `InheritableThreadLocal` parameters in the sub - threads don't change accordingly. So, we didn't use this approach either.
+
+As a result, we used the third approach. We utilized the `ExecutionContextService`'s `TaskDecorator`. This allowed the sub - threads to access the parameters. Moreover, when the parent parameters changed, the sub - thread's `ThreadLocal` parameters would also change. By using this approach, we not only solved the problem but also made the code more elegant.
