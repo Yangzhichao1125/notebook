@@ -1,6 +1,6 @@
 + lack of money
 + lie
-+ policy
++ can‘t policy
 + lazy
 + lack of confidence
 + **poor psychological quality**
