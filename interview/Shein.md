@@ -35,7 +35,7 @@
 ### 4、springcloud有哪些核心组件
 zuul
 euraka
-open feign 
+open feign
 ribbon
 Hystrix
 
